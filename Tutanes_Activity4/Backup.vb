@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 Imports System.IO
-Public Class Form2
+Public Class Backup
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim backup As New SaveFileDialog
         backup.InitialDirectory = "C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP"

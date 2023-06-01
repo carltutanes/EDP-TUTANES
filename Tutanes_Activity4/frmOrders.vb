@@ -64,4 +64,3 @@ Public Class frmOrders
             GC.Collect()
         End Try
     End Sub
-End Class

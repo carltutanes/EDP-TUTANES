@@ -48,3 +48,7 @@ C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP\Tutanes_Activity4\Tutanes_A
 C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP\Tutanes_Activity4\Tutanes_Activity4\obj\Debug\Tutanes_Activity4.vbproj.CopyComplete
 C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP\Tutanes_Activity4\Tutanes_Activity4\obj\Debug\Tutanes_Activity4.frmOrders.resources
 C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP\Tutanes_Activity4\Tutanes_Activity4\obj\Debug\Tutanes_Activity4.vbproj.ResolveComReference.cache
+C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP\Tutanes_Activity4\Tutanes_Activity4\obj\Debug\Tutanes_Activity4.Form1_Login.resources
+C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP\Tutanes_Activity4\Tutanes_Activity4\obj\Debug\Tutanes_Activity4.LoginForm1.resources
+C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP\Tutanes_Activity4\Tutanes_Activity4\obj\Debug\Tutanes_Activity4.Backup.resources
+C:\Users\CARL TUTANES\Documents\2nd sem 3rd year\EDP\Tutanes_Activity4\Tutanes_Activity4\obj\Debug\Tutanes_Activity4.Home_Page.resources

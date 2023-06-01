@@ -30,27 +30,32 @@ Partial Class frmOrders
         'dgOrders
         '
         Me.dgOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgOrders.Location = New System.Drawing.Point(12, 70)
+        Me.dgOrders.Location = New System.Drawing.Point(13, 46)
+        Me.dgOrders.Margin = New System.Windows.Forms.Padding(4)
         Me.dgOrders.Name = "dgOrders"
-        Me.dgOrders.Size = New System.Drawing.Size(458, 320)
+        Me.dgOrders.RowHeadersWidth = 51
+        Me.dgOrders.Size = New System.Drawing.Size(611, 394)
         Me.dgOrders.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(614, 186)
+        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(652, 207)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(116, 50)
+        Me.Button1.Size = New System.Drawing.Size(155, 62)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Export"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'frmOrders
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(828, 482)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.dgOrders)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmOrders"
         Me.Text = "frmOrders"
         CType(Me.dgOrders, System.ComponentModel.ISupportInitialize).EndInit()

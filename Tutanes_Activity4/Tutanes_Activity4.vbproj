@@ -134,10 +134,14 @@
     </Compile>
     <Compile Include="Connection.vb" />
     <Compile Include="export.vb" />
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="Form1_Login.Designer.vb">
+      <DependentUpon>Form1_Login.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="Form1_Login.vb" />
+    <Compile Include="Backup.Designer.vb">
+      <DependentUpon>Backup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Backup.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmOrders.Designer.vb">
@@ -146,9 +150,10 @@
     <Compile Include="frmOrders.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.vb" />
-    <Compile Include="Login.Designer.vb">
-      <DependentUpon>Login.vb</DependentUpon>
+    <Compile Include="Home Page.Designer.vb">
+      <DependentUpon>Home Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="order.Designer.vb">
@@ -188,14 +193,17 @@
     <EmbeddedResource Include="checkout.resx">
       <DependentUpon>checkout.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="Form1_Login.resx">
+      <DependentUpon>Form1_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup.resx">
+      <DependentUpon>Backup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmOrders.resx">
       <DependentUpon>frmOrders.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.vb</DependentUpon>
+    <EmbeddedResource Include="Home Page.resx">
+      <DependentUpon>Home Page.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="order.resx">
       <DependentUpon>order.vb</DependentUpon>
