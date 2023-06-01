@@ -126,12 +126,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="checkout.Designer.vb">
-      <DependentUpon>checkout.vb</DependentUpon>
-    </Compile>
-    <Compile Include="checkout.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Connection.vb" />
     <Compile Include="export.vb" />
     <Compile Include="Form1_Login.Designer.vb">
@@ -144,6 +138,18 @@
     <Compile Include="Backup.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCustomer_Review.Designer.vb">
+      <DependentUpon>frmCustomer_Review.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomer_Review.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmOrders.Designer.vb">
       <DependentUpon>frmOrders.vb</DependentUpon>
     </Compile>
@@ -154,22 +160,6 @@
       <DependentUpon>Home Page.vb</DependentUpon>
     </Compile>
     <Compile Include="Home Page.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="order.Designer.vb">
-      <DependentUpon>order.vb</DependentUpon>
-    </Compile>
-    <Compile Include="order.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="order_items.Designer.vb">
-      <DependentUpon>order_items.vb</DependentUpon>
-    </Compile>
-    <Compile Include="order_items.vb" />
-    <Compile Include="review.Designer.vb">
-      <DependentUpon>review.vb</DependentUpon>
-    </Compile>
-    <Compile Include="review.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -190,29 +180,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="checkout.resx">
-      <DependentUpon>checkout.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1_Login.resx">
       <DependentUpon>Form1_Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Backup.resx">
       <DependentUpon>Backup.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer_Review.resx">
+      <DependentUpon>frmCustomer_Review.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmOrders.resx">
       <DependentUpon>frmOrders.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home Page.resx">
       <DependentUpon>Home Page.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="order.resx">
-      <DependentUpon>order.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="order_items.resx">
-      <DependentUpon>order_items.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="review.resx">
-      <DependentUpon>review.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -242,6 +226,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.ico" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\images.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
